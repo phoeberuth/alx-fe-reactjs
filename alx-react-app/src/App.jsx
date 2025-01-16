@@ -3,6 +3,7 @@ import WelcomeMessage from './components/WelcomeMessage';
 import Header from './components/Header'; // Import Header
 import MainContent from './components/MainContent'; // Import MainContent
 import Footer from './components/Footer'; // Import Footer
+import UserProfile from './components/UserProfile';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,8 @@ function App() {
      <MainContent />
      <Footer />
 
+     {/* Add UserProfile Component with required props */}
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       
       <h1>Vite + React</h1>
       <div className="card">
