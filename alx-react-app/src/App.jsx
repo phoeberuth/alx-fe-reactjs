@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import WelcomeMessage from './components/WelcomeMessage';
 import Header from './components/Header'; // Import Header
 import MainContent from './components/MainContent'; // Import MainContent
@@ -15,9 +14,9 @@ function App() {
      <WelcomeMessage />
 
      {/*Include Header, MainContent, and Footer components */}
-     <Header/>
-     <MainContent/>
-     <Footer/>
+     <Header />
+     <MainContent />
+     <Footer />
 
       
       <h1>Vite + React</h1>
