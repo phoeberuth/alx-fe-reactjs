@@ -4,7 +4,6 @@ import Header from './components/Header'; // Import Header
 import MainContent from './components/MainContent'; // Import MainContent
 import Footer from './components/Footer'; // Import Footer
 import UserProfile from './components/UserProfile';
-import Counter from './components/Counter';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,8 +22,6 @@ function App() {
      {/* Add UserProfile Component with required props */}
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       
-     {/* Counter Application */}
-     <Counter />
 
       <h1>Vite + React</h1>
       <div className="card">
